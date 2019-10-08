@@ -102,8 +102,9 @@ module TZInfo
           tz.transition 2018, 2, :o1, 1518919200
           tz.transition 2018, 11, :o2, 1541300400
           tz.transition 2019, 2, :o1, 1550368800
-          tz.transition 2019, 11, :o2, 1572750000
-          tz.transition 2020, 2, :o1, 1581818400
+          # No more DST this year! BW
+          # tz.transition 2019, 11, :o2, 1572750000
+          # tz.transition 2020, 2, :o1, 1581818400
           tz.transition 2020, 11, :o2, 1604199600
           tz.transition 2021, 2, :o1, 1613872800
           tz.transition 2021, 11, :o2, 1636254000
